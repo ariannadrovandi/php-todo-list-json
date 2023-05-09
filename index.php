@@ -13,7 +13,9 @@
     <div id="app">
         <h1>{{title}}</h1>
         <ul>
-            <li v-for="(todo, index) in todoList" :key="index">{{todo}}</li>
+            <li v-for="(todo, index) in todoList" :key="index">
+                <span :class="{ 'text-decoration-line-through' : todo.done }" @click="toggleTaskDone(index)">{{todo.task}}</span>
+            </li>
         </ul>
 
         <section>

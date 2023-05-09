@@ -19,6 +19,22 @@ createApp(
             },
             updateList(){
                 console.log(this.newTodo);
+                const data = {
+                    newTodo: this.newTodo
+                }
+                axios.post(this.apiUrl, data, {headers: {'Content-Type': 'multipart/form-data'}}).then((res) => {
+                    this.newTodo = '';
+                    console.log(res.data);
+                });
+            },
+            toggleTaskDone(index){
+                //this.todoList[index].done = !this.todoList[index].done;
+                const data = {
+                    updateData: index
+                }
+                axios.post(this.apiUrl, data, {headers: {'Content-Type': 'multipart/form-data'}}).then((res) => {
+                    console.log(res.data);
+                });
             }
         },
         mounted(){

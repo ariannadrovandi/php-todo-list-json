@@ -1,18 +1,1 @@
-[
-    {
-        "todo":"fare la spesa",
-        "done":false
-    },
-    {
-        "todo":"comprare il latte",
-        "done":false
-    },
-    {
-        "todo":"completare l'esercizio",
-        "done":false
-    },
-    {
-        "todo":"chiamare Tizio",
-        "done":false
-    }
-]
+[{"task":"task 1","done":false},{"task":"task 2","done":false},{"task":"task 3","done":false},{"task":"task 4","done":false},{"task":"dddddd","done":false}]
