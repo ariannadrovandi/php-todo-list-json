@@ -1,1 +1,1 @@
-[{"task":"task 1","done":false},{"task":"task 2","done":false},{"task":"task 3","done":false},{"task":"task 4","done":false},{"task":"dddddd","done":false}]
+[{"task":"task 1","done":true},{"task":"task 2","done":false},{"task":"task 3","done":true},{"task":"task 4","done":false},{"task":"dddddd","done":false},{"task":"sss","done":false}]

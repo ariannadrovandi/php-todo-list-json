@@ -10,7 +10,7 @@
     <title>todo list</title>
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="container w-50 mt-5">
         <h1>{{title}}</h1>
         <ul>
             <li v-for="(todo, index) in todoList" :key="index">

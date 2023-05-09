@@ -24,7 +24,8 @@ createApp(
                 }
                 axios.post(this.apiUrl, data, {headers: {'Content-Type': 'multipart/form-data'}}).then((res) => {
                     this.newTodo = '';
-                    console.log(res.data);
+                    //console.log(res.data);
+                    this.todoList = res.data;
                 });
             },
             toggleTaskDone(index){
@@ -33,7 +34,8 @@ createApp(
                     updateData: index
                 }
                 axios.post(this.apiUrl, data, {headers: {'Content-Type': 'multipart/form-data'}}).then((res) => {
-                    console.log(res.data);
+                    //console.log(res.data);
+                    this.todoList = res.data;
                 });
             }
         },
