@@ -7,7 +7,7 @@ createApp(
                 title: 'Todo list',
                 todoList:[],
                 apiUrl: 'server.php',
-                
+                newTodo: ''
             }
         },
         methods : {
@@ -16,6 +16,9 @@ createApp(
                     // console.log(res.data);
                     this.todoList = res.data;
                 });
+            },
+            updateList(){
+                console.log(this.newTodo);
             }
         },
         mounted(){
