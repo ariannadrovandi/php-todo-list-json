@@ -1,0 +1,18 @@
+[
+    {
+        "todo":"fare la spesa",
+        "done":false
+    },
+    {
+        "todo":"comprare il latte",
+        "done":false
+    },
+    {
+        "todo":"completare l'esercizio",
+        "done":false
+    },
+    {
+        "todo":"chiamare Tizio",
+        "done":false
+    }
+]
